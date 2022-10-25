@@ -113,8 +113,6 @@
   }
 
   app-profile{
-    /* background-color: #1976d2; */
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
