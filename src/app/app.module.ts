@@ -10,6 +10,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { LoginComponent } from './login/login.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AuthGuard } from './auth-guard.service';
+import { FooterBarComponent } from './footer-bar/footer-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AuthGuard } from './auth-guard.service';
     PostsComponent,
     NewsComponent,
     ProfileComponent,
-    LoginComponent
+    LoginComponent,
+    FooterBarComponent
   ],
   imports: [
     BrowserModule,
